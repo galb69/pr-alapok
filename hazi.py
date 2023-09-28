@@ -1,7 +1,7 @@
-nap = input("Hogy vagy?")
-if nap == "jól":
-    print(f"Hogy telt a napod?")
-elif nap == "rosszul":
-    print(f"Remélem holnap jobb lesz")
+nap = input("Jó napod volt?")
+if nap == "igen":
+    print(f"örülök?")
+elif nap == "nem":
+    print(f"Remélem jobb lesz")
 else:
-    print(f"Hát ez érdekes")
+    print(f"érdekes")
